@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="calculator">
+    <div id="display" class="row"><span id="displayValue">0</span></div>
+    <div id="row-1" class="row">
+        <button data-handler="b_clear" data-value="ac" class="item">AC</button>
+        <button data-handler="b_action" data-value="+/-" class="item">+/-</button>
+        <button data-handler="b_action" data-value="%" class="item">%</button>
+        <button data-handler="b_action" data-value="/" class="item">/</button>
+    </div>
+    <div id="row-2" class="row">
+        <button data-handler="digit" data-value="7" class="item">7</button>
+        <button data-handler="digit" data-value="8" class="item">8</button>
+        <button data-handler="digit" data-value="9" class="item">9</button>
+        <button data-handler="b_action" data-value="*" class="item">*</button>
+    </div>
+    <div id="row-3" class="row">
+        <button data-handler="digit" data-value="4" class="item">4</button>
+        <button data-handler="digit" data-value="5" class="item">5</button>
+        <button data-handler="digit" data-value="6" class="item">6</button>
+        <button data-handler="b_action" data-value="-" class="item">-</button>
+    </div>
+    <div id="row-4" class="row">
+        <button data-handler="digit" data-value="1" class="item">1</button>
+        <button data-handler="digit" data-value="2" class="item">2</button>
+        <button data-handler="digit" data-value="3" class="item">3</button>
+        <button data-handler="b_action" data-value="+" class="item">+</button>
+    </div>
+    <div id="row-5" class="row">
+        <button data-handler="digit" data-value="0" class="item">0</button>
+        <button data-handler="digit" data-value="." class="item">.</button>
+        <button data-handler="b_action" data-value="=" class="item">=</button>
+    </div>
+</div>
+<script type="module" src="calculator.js"></script>
+
+</body>
+</html>
